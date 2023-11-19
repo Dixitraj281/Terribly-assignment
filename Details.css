@@ -1,0 +1,75 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+}
+a{
+    margin-top: 0%;
+    margin: 0;
+    padding: 0;
+    color: rgb(122, 186, 185);
+    margin-bottom: 1rem;
+}
+span{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.fav{
+    background-color: rgb(19, 187, 216);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+.roundheart{
+    background-color: rgb(216, 19, 117);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+.like{
+    background-color: rgb(216, 157, 19);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+}
+.seen{
+    background-color: rgb(132, 138, 139);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+i{
+    margin-right: 5px;
+}
+@media only screen and (max-width:768px){
+    .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+
+    }
+}

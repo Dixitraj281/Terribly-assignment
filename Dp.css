@@ -1,0 +1,42 @@
+.dp{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 18%;
+    margin-right: 75%;
+    border-radius: 50%;
+    margin-top: -1.5%;
+}
+.stack{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+img{
+    border-radius: 50%;
+}
+.stacktwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+/* medium screen */
+@media only screen and (max-width: 768px){
+    .dp{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8%;
+        margin-top: -3%;
+        transition: 0.2s ease-in-out;
+    }
+}
+

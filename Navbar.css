@@ -1,0 +1,99 @@
+.Parent{
+    height: 5rem;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.course-btn{
+    position: absolute;
+    font-weight: 800;
+    font-size: large;
+    background-color: rgb(252, 183, 72);
+    height: 3rem;
+    border: none;
+    border-radius: 6px;
+    right: 0;
+    margin: 1.5%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 1%;
+}
+.circle{
+    width: 3rem;
+    border-radius: 100%;
+    background-color: white;
+    margin: 10px;
+    margin-left: 1.5%;
+}
+.line{
+    height: 3rem;
+    background-color: grey;
+    width: 1.5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.logo-txt{
+margin: 0;
+width: 3rem;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 200%;
+font-weight: 100;
+}
+@media (max-width:768px){
+    .course-btn{
+        height: 2.8rem;
+        margin-right: 15px;
+        transition: 0.2s ease-in-out;
+    }
+    .circle{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 15px;
+        transition: 0.2s ease-in-out;
+    }
+    .logo-txt{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 180%;
+    }
+    .line{
+        height: 2.8rem;
+        transition: 0.2s ease-in-out;
+    }
+}
+@media (max-width:500px){
+    .body{
+        max-width: 100%;
+    }
+    .course-btn{
+        height: 2.5rem;
+        transition: 0.2s ease-in-out;
+    }
+    .circle{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 15px;
+        transition: 0.2s ease-in-out;
+    }
+    .logo-txt{
+        width: 2rem;
+        height: 2rem;
+        font-size: 150%;
+    }
+    .line{
+        height: 2.5rem;
+        transition: 0.2s ease-in-out;
+    }
+}

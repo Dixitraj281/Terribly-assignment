@@ -1,0 +1,170 @@
+.box1{
+    display: flex;
+    border: 1px solid rgb(163, 160, 160);
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 5px;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    width: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    color: gray;
+}
+.box2{
+    display: flex;
+    border: 1px solid rgb(163, 160, 160);
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 5px;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 27%;
+    top: 20%;
+}
+.followers{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    color: gray;
+}
+.following{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    color: gray;
+}
+.box-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+    justify-content: center;
+}
+.gem{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+@media only screen and (max-width: 1300px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 28%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 32%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 32%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 28%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 35%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 42%;
+    top: 20%;
+    transition: 0.2s ease-in-out;
+    min-width: none;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: fit-content;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    left: 45%;
+    top: 45%;
+    transition: 0.2s ease-in-out;
+    }
+}

@@ -1,0 +1,21 @@
+.parent{
+height: 40vh;
+margin: 0;
+padding: 0;
+}
+.img{
+    height: inherit;
+    margin-top: 0.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px 10px 0px 0px;
+}
+  @media only screen and (max-width: 768px) {
+    .img{
+        height: 30vh;
+        margin: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        transition: 0.2s ease-in-out;
+    }
+  }

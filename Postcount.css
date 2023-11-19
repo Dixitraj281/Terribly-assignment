@@ -1,0 +1,24 @@
+.count{
+    font-weight: 800;
+    border-left: 1.5px solid rgb(169, 166, 166);
+    border-top: 1.5px solid rgb(169, 166, 166);
+    border-right: 1.5px solid rgb(169, 166, 166);
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 1rem;
+    color: rgb(54, 171, 203);
+    margin-bottom: 0;
+}
+.straight{
+    color: rgb(169, 166, 166);
+    margin-top: 0;
+    margin-left: 18%;
+    margin-right: 15%;
+}
+@media screen and (max-width: 600px) {
+   .straight{
+    margin-left: 15%;
+   }
+  }

@@ -1,0 +1,80 @@
+.text1{
+    color: gray;
+    font-size: large;
+    margin-left: 16%;
+    flex-wrap: wrap;
+    margin-right: 16%;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    margin-right: 16%;
+    margin-left: 16%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.first{
+    position: relative;
+    color: rgb(54, 171, 203);
+    font-weight: 800;
+}
+.second{
+    position: relative;
+    color: gray;
+    font-weight: 800;
+    flex-wrap: nowrap;
+    margin-left: 4%;
+    overflow: hidden;
+    margin-left: -50%;
+    z-index: 1000;
+}
+.sentence{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 3%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+span{
+    margin: 0;
+    margin-left: 4px;
+    
+}
+.month{
+   color: gray;
+   /* justify-content: space-between; */
+}
+.straight-1{
+        color: rgb(169, 166, 166);
+        margin-top: 0;
+        margin-left: 15%;
+        margin-right: 14%;  
+}
+@media screen and (max-width: 1345px) {
+    .first{
+        font-size: xx-small;
+    }
+    .second{
+        font-size: xx-small;
+        /* margin-top: 6%; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 4px;
+    }
+    .month{
+        font-size: xx-small;
+    }
+  }
+  @media screen and (max-width: 700px){
+    .sentence{
+        flex-wrap:wrap;
+    }
+  }
